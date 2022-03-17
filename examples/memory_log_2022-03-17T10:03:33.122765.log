@@ -1,0 +1,44 @@
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO - Filename: /home/mbaddar/Documents/mbaddar/phd/memory_profiler/examples/reporting_logger.py
+
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO - =============================================================
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     47     17.1 MiB     17.1 MiB           1   @profile
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     48                                         def my_func():
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     49     24.9 MiB      7.8 MiB           1       a = [1] * (10 ** 6)
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     50    177.6 MiB    152.6 MiB           1       b = [2] * (2 * 10 ** 7)
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     51     25.1 MiB   -152.5 MiB           1       del b
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO -     52     25.1 MiB      0.0 MiB           1       return a
+
+2022-03-17 10:03:33,211 - my_memory_profiler_logger - INFO - 
+
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO - Filename: /home/mbaddar/Documents/mbaddar/phd/memory_profiler/examples/reporting_logger.py
+
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO - Line #    Mem usage    Increment  Occurrences   Line Contents
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO - =============================================================
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     55     17.5 MiB     17.5 MiB           1   @profile
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     56                                         def my_func1():
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     57     25.0 MiB      7.5 MiB           1       a = [2] * (10 ** 6)
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     58    177.6 MiB    152.6 MiB           1       b = [3] * (2 * 10 ** 7)
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     59     25.1 MiB   -152.5 MiB           1       del b
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO -     60     25.1 MiB      0.0 MiB           1       return a
+
+2022-03-17 10:03:33,285 - my_memory_profiler_logger - INFO - 
+
+
